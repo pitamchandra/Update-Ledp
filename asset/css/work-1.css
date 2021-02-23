@@ -11,6 +11,9 @@ body{
 	background: rgb(230,21,64);
 	background: linear-gradient(141deg, rgba(230,21,64,1) 0%, rgba(18,8,154,1) 100%);
 }
+.section-1,.section-2,.section-3,.section-4,.section-5,.section-6{
+	width:100%;
+}
 .heading{
 	min-height:80px;
 	display:block;
@@ -119,14 +122,89 @@ button.btn.btn-danger {
 .my-arow{
 	padding-left:10px;
 }
+.last-head{
+	padding-top:20px;
+	margin-bottom:30px;
+}
+.last-head h2{
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 700;
+	position:relative;
+}
+.last-head h2:before{
+	content: "";
+    position: absolute;
+    width: 430px;
+    height: 10px;
+    background: linear-gradient(240deg, #dc3545, transparent);
+    top: 17px;
+    left: 0;
+}
+.last-head h2:after{
+	content: "";
+    position: absolute;
+    width: 430px;
+    height: 10px;
+    background: linear-gradient(74deg, #dc3545, transparent);
+    top: 17px;
+    right: 0;
+}
+.last-img img{
+	width:100%;
+}
+.last-body{
+	margin-bottom:30px;
+}
 
 
 
+/* this is responsive area */
 
-
-
-
-
+@media only screen and (max-width:1199px){
+	.heading ul li{
+		width:163px;
+	}
+	.banar-item p{
+		top:66%;
+	}
+	.last-head h2:before{
+		width:353px;
+	}
+	.last-head h2:after{
+		width:353px;
+	}
+}
+@media only screen and (max-width:991px){
+	.heading ul li{
+		width:116px;
+	}
+	.heading ul li a{
+		font-size:14px
+	}
+	.banar-item img{
+		height: 298px;
+	}
+	.banar-item h1{
+		top: 40%;
+		left: 8%;
+		font-size:28px;
+	}
+	.banar-content{
+		padding: 13px 0;
+	}
+	.banar-item p{
+		top: 60%;
+		left: 8%;
+	}
+	.last-head h2:before{
+		width:240px;
+	}
+	.last-head h2:after{
+		width:240px;
+	}
+}
 
 
 
