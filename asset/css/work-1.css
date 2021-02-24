@@ -205,6 +205,66 @@ button.btn.btn-danger {
 		width:240px;
 	}
 }
+@media only screen and (max-width:767px){
+	.heading{
+		min-height:97px;
+	}
+	.heading ul li{
+		margin:5px 7px;
+	}
+	.heading ul li:last-child{
+		margin-left:0;
+	}
+	.banar-content{
+		margin-top:25px;
+	}
+	.last-head h2{
+		font-size:20px;
+	}
+	.last-head h2:before{
+		width:187px;
+		top:11px;
+		height:6px;
+	}
+	.last-head h2:after{
+		width:187px;
+		top:11px;
+		height:6px;
+	}
+}
+@media only screen and (max-width:575px){
+	.last-body .col{
+		flex:none;
+	}
+	.heading ul li{
+		background:#96133f;
+	}
+	
+}
+@media only screen and (max-width:420px){
+	.heading{
+		height:70px;
+	}
+	.heading ul li{
+		margin:2px 2px;
+		padding:2px 0;
+		width:96px;
+	}
+	.heading ul li a{
+		font-size:12px;
+	}
+	.last-head h2:before {
+		width: 81px;
+		top: 11px;
+		height: 6px;
+	}
+	.last-head h2:after {
+		width: 81px;
+		top: 11px;
+		height: 6px;
+	}
+}
+
 
 
 
